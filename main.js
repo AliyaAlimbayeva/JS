@@ -29,3 +29,10 @@ function spliceCar() {
     cars.splice(1, 2);
     document.getElementById("splice").innerHTML = cars;
 }
+
+function show() {
+    var cars = getCars();
+    for (c in cars) {
+        alert(cars[c]);
+    }
+}
